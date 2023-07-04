@@ -63,8 +63,8 @@ h1{
     margin-left: 10px;
 }
 main{
-    max-width: 1170px;
      margin: auto;
+     margin-bottom: 70px;
  }
 .griglia1{
     height: 700px;
@@ -106,9 +106,10 @@ h2{
     display: flex;
 }
 .griglia2{
-    height: 900px;
+    height: 1030px;
     display: flex; 
     justify-content: center; 
+    text-align: center;
 }
 .griglia2 > div {
     width: 100%;
@@ -128,49 +129,100 @@ h2{
     padding-top: 15px;
     width: 100%;
 }
-.pink{
-    background-color: pink;
+h3{
+    width: 47%;
+    padding-top: 20px;
+    margin: auto;
+    background-image: url(./img/stars.svg);
+    background-size: cover;
+    font-size: 28px;
+}
+.button3{
+    padding: 15px 20px;
+    border-radius: 50px;
+    border: 0;
+    background-color: rgb(142, 161, 225);
+    color: white;
+    margin: 30px 0px;
+    font-size: 15px;
+}
+.containergrey{
+    background-color: rgb(35, 39, 42);
     height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .rectangle{
-    background-color: rgba(230, 116, 135, 0.678);
     height: 500px;
-    width: 900px;
+    width: 1170px;
 }
 .row3{
     display: flex;
-    background-color: rgba(165, 42, 42, 0.377);
     width: 100%;
     height: 350px;
     display: flex;
     justify-content:flex-start;
-    align-items: center;
+    
 }
 .col3{
-    height: 310px;
     width: 30%;
-    background-color: rgba(146, 144, 144, 0.849);
-    border: dashed 1px rgba(0, 0, 0, 0.418);
+    padding-right: 30px;
+}
+.col3 > h4 {
+    font-size: 35px;
+    color: #7289DA;
+    margin-bottom: 20px;
+}
+.col3 > img {
+    height: 20px;
+}
+.col3 span , .col3 i {
+    color: white;
+    margin-bottom: 20px;
+}
+#arrow{
+    font-size: 10px;
+}
+.social i {
+    margin-right: 10px;
+    font-size: 20px;
 }
 .col4{
     width: calc(70% / 4);
-    background-color: antiquewhite;
     height: 310px;
     margin-left: 10px;
-    border: dashed 1px rgba(0, 0, 0, 0.418);
+}
+.col4 > h4 {
+    padding: 5px;
+    color:  #7289DA;
+}
+ul{
+    list-style: none;
+}
+li{
+    padding: 5px;
+    color: white;
 }
 .ruler{
-    background-color: rgba(165, 42, 42, 0.377);
+    border-top: #7289DA solid 2px;
     height: 80px;
-    width: 900px;
+    width: 1170px;
     margin-top: 40px;
     display: flex;
     justify-content:space-between;
     align-items: center;
 }
 .blocksgreen{
-    background-color: rgba(36, 199, 36, 0.582);
+    padding-top: 17px;
     height: 40px;
     width: 150px;
-    border: dashed 1px rgba(0, 0, 0, 0.418);
+}
+#btn{
+    background-color: #8EA1E1;
+    color: white;
+    border-radius: 35px;
+    border: 0;
+    padding: 10px 15px;
+    font-size: 15px;
 }
