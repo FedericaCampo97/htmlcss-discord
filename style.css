@@ -29,10 +29,6 @@ body{
     border-radius: 50px;
     border: 0;
 }
-main{
-   max-width: 1170px;
-    margin: auto;
-}
 .containersecond{
     display: flex; 
     justify-content: center;
@@ -66,67 +62,45 @@ h1{
     color: white;
     margin-left: 10px;
 }
-#acqua{
-    background-color: aqua;
-    height: 200px;
-    width: 500px;
-    border: dashed 1px rgba(0, 0, 0, 0.562);
-}
+main{
+    max-width: 1170px;
+     margin: auto;
+ }
 .griglia1{
-    height: 400px;
-    margin-top: 20px;
-    border: dashed 1px rgba(0, 0, 0, 0.562);
+    height: 600px;
+    margin-top: 160px;
 }
 .griglia{
     height: 400px;
     border: dashed 1px rgba(0, 0, 0, 0.562);
 }
 .container{
-    width: 80%;
-    height: 300px;
-    margin: auto;
     margin-top: 25px;
-    background-color: rgba(255, 166, 0, 0.849);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .row{
-    display: flex;
-    background-color: rgba(165, 42, 42, 0.377);
     width: 100%;
-    height: 250px;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 .col{
     width: 60%;
-    height: 210px;
-    background-color: rgba(127, 255, 212, 0.671);
-    border: dashed 1px rgba(0, 0, 0, 0.562);
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 .col2{
     width: 40%;
-    height: 210px;
-    background-color: rgba(127, 255, 212, 0.671);
-    border: dashed 1px rgba(0, 0, 0, 0.418);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 40px 78px;
 }
-.card1{
-    width: 80%;
-    height: 150px;
-    background-color: rgba(0, 195, 255, 0.925);
+h2{
+    font-size: 40px;
+    margin-bottom: 15px;
 }
-.card2{
-    width: 80%;
-    height: 150px;
-    background-color: rgba(0, 195, 255, 0.925);
+#p2{
+    font-size: 17px;
+    line-height: 25px;
 }
 .griglia2{
     border: dashed 1px rgba(0, 0, 0, 0.418);
