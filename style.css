@@ -63,8 +63,9 @@ h1{
     margin-left: 10px;
 }
 main{
-     margin: auto;
-     margin-bottom: 70px;
+    max-width: 1170px;
+    margin: auto;
+    margin-bottom: 70px;
  }
 .griglia1{
     height: 700px;
