@@ -67,12 +67,11 @@ main{
      margin: auto;
  }
 .griglia1{
-    height: 600px;
+    height: 700px;
     margin-top: 160px;
 }
 .griglia{
-    height: 400px;
-    border: dashed 1px rgba(0, 0, 0, 0.562);
+    height: 700px;
 }
 .container{
     margin-top: 25px;
@@ -98,21 +97,36 @@ h2{
     font-size: 40px;
     margin-bottom: 15px;
 }
-#p2{
+.p2{
     font-size: 17px;
     line-height: 25px;
 }
+.row2{
+    width: 100%;
+    display: flex;
+}
 .griglia2{
-    border: dashed 1px rgba(0, 0, 0, 0.418);
     height: 900px;
     display: flex; 
-    justify-content: center;
-    align-items: center;
+    justify-content: center; 
 }
-.orange{
-    background-color: rgba(255, 68, 0, 0.534);
-    height: 760px;
-    width: 70%;
+.griglia2 > div {
+    width: 100%;
+}
+#title{
+    padding: 30px;
+    text-align: center;
+}
+#p3{
+    text-align: center;
+    font-size: 17px;
+    line-height: 25px;
+    width: 800px;
+    margin: auto;
+}
+.item4{
+    padding-top: 15px;
+    width: 100%;
 }
 .pink{
     background-color: pink;
@@ -123,7 +137,7 @@ h2{
     height: 500px;
     width: 900px;
 }
-.row2{
+.row3{
     display: flex;
     background-color: rgba(165, 42, 42, 0.377);
     width: 100%;
